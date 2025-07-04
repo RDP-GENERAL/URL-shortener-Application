@@ -1,0 +1,13 @@
+After python tkinter module, Process to create exe file
+
+
+1. Install pyinstaller module
+
+   pip install pyinstaller
+
+2. Run the below code
+
+   pyinstaller --onefile --noconsole --hidden-import=pyshorteners.Shortener --hidden-import=pyshorteners.shorteners.tinyurl your_script.py
+
+
+(In place of "your_script" put your file name of your python file of tkinter module file)
